@@ -1,0 +1,20 @@
+
+
+*{
+    font-family: 'cirilica';
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.App{
+    background-image: url(./Assets/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
