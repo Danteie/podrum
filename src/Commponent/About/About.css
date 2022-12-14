@@ -1,0 +1,16 @@
+.about-c{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.about-c > div{
+    flex: 1;
+}
+
+.vino{
+    width: 40rem;
+    height: 30rem;
+}
