@@ -4,13 +4,28 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
+    background: linear-gradient(90deg, #17181A 50%, #1F2022 100%);
+    mix-blend-mode: darken;
+    color: white;
 }
 
 .about-c > div{
     flex: 1;
 }
 
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .vino{
-    width: 40rem;
+    width: auto;
     height: 30rem;
+    transition: 0.4s;
+}
+
+.vino:hover{
+    transform: scale(1.2);
+    
 }
