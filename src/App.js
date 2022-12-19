@@ -1,6 +1,7 @@
 import './App.css';
 import Menu from './Commponent/Menu/Menu'
 import About from './Commponent/About/About';
+import Carousel from './Commponent/Carousel/Carousel';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Menu />
       </div>
         <About />
+        <Carousel />
     </div>
   );
 }
